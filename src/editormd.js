@@ -693,7 +693,9 @@
                                                 "Ctrl-Q": function(cm) {
                                                     cm.foldCode(cm.getCursor());
                                                 },
-                                                "Enter": "newlineAndIndentContinueMarkdownList"
+                                                "Enter": "newlineAndIndentContinueMarkdownList",
+                                                "Tab": "autoIndentMarkdownList",
+                                                "Shift-Tab": "autoUnindentMarkdownList"
                                             },
                 foldGutter                : settings.codeFold,
                 gutters                   : ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
