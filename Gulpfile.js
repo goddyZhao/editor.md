@@ -135,6 +135,7 @@ gulp.task("amd", function() {
         '                cmModePath + "jade/jade",',
         '',
         '                cmAddonPath + "edit/continuelist", ',
+        '                cmAddonPath + "edit/indentlist", ',
         '                cmAddonPath + "edit/trailingspace", ',
         '                cmAddonPath + "dialog/dialog", ',
         '                cmAddonPath + "search/searchcursor", ',
@@ -240,6 +241,7 @@ var codeMirror = {
 
     addons : [
         "edit/continuelist",
+        "edit/indentlist",
         "edit/trailingspace",
         "dialog/dialog",
         "search/searchcursor",

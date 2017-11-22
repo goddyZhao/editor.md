@@ -1,4 +1,4 @@
-/*! Editor.md v1.5.0 | editormd.amd.js | Open source online markdown editor. | MIT License | By: Pandao | https://github.com/pandao/editor.md | 2017-11-17 */
+/*! Editor.md v1.5.0 | editormd.amd.js | Open source online markdown editor. | MIT License | By: Pandao | https://github.com/pandao/editor.md | 2017-11-22 */
 /*
  * Editor.md
  *
@@ -8,7 +8,7 @@
  * @license     MIT License
  * @author      Pandao
  * {@link       https://github.com/pandao/editor.md}
- * @updateTime  2017-11-17
+ * @updateTime  2017-11-22
  */
 
 ;(function(factory) {
@@ -63,6 +63,7 @@
                 cmModePath + "jade/jade",
 
                 cmAddonPath + "edit/continuelist", 
+                cmAddonPath + "edit/indentlist", 
                 cmAddonPath + "edit/trailingspace", 
                 cmAddonPath + "dialog/dialog", 
                 cmAddonPath + "search/searchcursor", 
